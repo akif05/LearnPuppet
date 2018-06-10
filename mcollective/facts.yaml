@@ -1,0 +1,519 @@
+---
+aio_agent_build: 5.3.4
+aio_agent_version: 5.3.4
+architecture: x86_64
+augeas:
+  version: 1.8.1
+augeasversion: 1.8.1
+bios_release_date: 05/20/2014
+bios_vendor: Phoenix Technologies LTD
+bios_version: '6.00'
+blockdevice_sda_model: VMware Virtual I
+blockdevice_sda_size: 21474836480
+blockdevice_sda_vendor: ATA
+blockdevices: sda
+boardmanufacturer: Intel Corporation
+boardproductname: 440BX Desktop Reference Platform
+boardserialnumber: None
+chassisassettag: No Asset Tag
+chassistype: Other
+dhcp_servers:
+  ens32: 192.168.19.254
+  ens34: 192.168.1.254
+  system: 192.168.1.254
+disks:
+  sda:
+    model: VMware Virtual I
+    size: 20.00 GiB
+    size_bytes: 21474836480
+    vendor: ATA
+dmi:
+  bios:
+    release_date: 05/20/2014
+    vendor: Phoenix Technologies LTD
+    version: '6.00'
+  board:
+    manufacturer: Intel Corporation
+    product: 440BX Desktop Reference Platform
+    serial_number: None
+  chassis:
+    asset_tag: No Asset Tag
+    type: Other
+  manufacturer: VMware, Inc.
+  product:
+    name: VMware Virtual Platform
+    serial_number: VMware-56 4d 52 82 ac 30 8d 2b-12 65 07 7a 9e c6 52 b9
+    uuid: 564D5282-AC30-8D2B-1265-077A9EC652B9
+docker_hosts: {}
+domain: puppetlabs.vm
+facterversion: 3.9.4
+filesystems: xfs
+fqdn: learning.puppetlabs.vm
+gid: root
+hardwareisa: x86_64
+hardwaremodel: x86_64
+hostname: learning
+hypervisors:
+  vmware:
+    version: ''
+id: root
+identity:
+  gid: 0
+  group: root
+  privileged: true
+  uid: 0
+  user: root
+interfaces: br-2f65f8a083fd,docker0,ens32,ens34,lo
+ipaddress: 192.168.1.171
+ipaddress6: 2a00:23c4:f509:5200:20c:29ff:fec6:52c3
+ipaddress6_ens32: fe80::2655:2f2d:8ea0:9b17
+ipaddress6_ens34: 2a00:23c4:f509:5200:20c:29ff:fec6:52c3
+ipaddress6_lo: "::1"
+ipaddress_br-2f65f8a083fd: 172.18.0.1
+ipaddress_docker0: 172.17.0.1
+ipaddress_ens32: 192.168.19.133
+ipaddress_ens34: 192.168.1.171
+ipaddress_lo: 127.0.0.1
+is_pe: false
+is_virtual: true
+kernel: Linux
+kernelmajversion: '3.10'
+kernelrelease: 3.10.0-693.21.1.el7.x86_64
+kernelversion: 3.10.0
+load_averages:
+  15m: 2.98
+  1m: 2.92
+  5m: 4.85
+lsbdistcodename: Core
+lsbdistdescription: CentOS Linux release 7.4.1708 (Core)
+lsbdistid: CentOS
+lsbdistrelease: 7.4.1708
+lsbmajdistrelease: '7'
+lsbminordistrelease: '4'
+lsbrelease: ":core-4.1-amd64:core-4.1-noarch:cxx-4.1-amd64:cxx-4.1-noarch:desktop-4.1-amd64:desktop-4.1-noarch:languages-4.1-amd64:languages-4.1-noarch:printing-4.1-amd64:printing-4.1-noarch"
+macaddress: 00:0c:29:c6:52:c3
+macaddress_br-2f65f8a083fd: 02:42:6c:4d:35:98
+macaddress_docker0: 02:42:9d:06:2c:2c
+macaddress_ens32: 00:0c:29:c6:52:b9
+macaddress_ens34: 00:0c:29:c6:52:c3
+manufacturer: VMware, Inc.
+memory:
+  swap:
+    available: 890.04 MiB
+    available_bytes: 933269504
+    capacity: 13.08%
+    total: 1.00 GiB
+    total_bytes: 1073737728
+    used: 133.96 MiB
+    used_bytes: 140468224
+  system:
+    available: 311.73 MiB
+    available_bytes: 326873088
+    capacity: 89.05%
+    total: 2.78 GiB
+    total_bytes: 2985836544
+    used: 2.48 GiB
+    used_bytes: 2658963456
+memoryfree: 311.73 MiB
+memoryfree_mb: 311.73046875
+memorysize: 2.78 GiB
+memorysize_mb: 2847.515625
+mountpoints:
+  "/":
+    available: 12.65 GiB
+    available_bytes: 13584449536
+    capacity: 31.45%
+    device: "/dev/mapper/centos-root"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 18.46 GiB
+    size_bytes: 19815989248
+    used: 5.80 GiB
+    used_bytes: 6231539712
+  "/boot":
+    available: 277.17 MiB
+    available_bytes: 290631680
+    capacity: 44.19%
+    device: "/dev/sda1"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 496.67 MiB
+    size_bytes: 520794112
+    used: 219.50 MiB
+    used_bytes: 230162432
+  "/dev/shm":
+    available: 1.39 GiB
+    available_bytes: 1492910080
+    capacity: 0.00%
+    device: tmpfs
+    filesystem: tmpfs
+    options:
+    - rw
+    - nosuid
+    - nodev
+    size: 1.39 GiB
+    size_bytes: 1492918272
+    used: 8.00 KiB
+    used_bytes: 8192
+  "/run":
+    available: 1.38 GiB
+    available_bytes: 1483898880
+    capacity: 0.60%
+    device: tmpfs
+    filesystem: tmpfs
+    options:
+    - rw
+    - nosuid
+    - nodev
+    - mode=755
+    size: 1.39 GiB
+    size_bytes: 1492918272
+    used: 8.60 MiB
+    used_bytes: 9019392
+  "/run/user/0":
+    available: 284.75 MiB
+    available_bytes: 298586112
+    capacity: 0%
+    device: tmpfs
+    filesystem: tmpfs
+    options:
+    - rw
+    - nosuid
+    - nodev
+    - relatime
+    - size=291588k
+    - mode=700
+    size: 284.75 MiB
+    size_bytes: 298586112
+    used: 0 bytes
+    used_bytes: 0
+  "/run/user/994":
+    available: 284.75 MiB
+    available_bytes: 298586112
+    capacity: 0%
+    device: tmpfs
+    filesystem: tmpfs
+    options:
+    - rw
+    - nosuid
+    - nodev
+    - relatime
+    - size=291588k
+    - mode=700
+    - uid=994
+    - gid=992
+    size: 284.75 MiB
+    size_bytes: 298586112
+    used: 0 bytes
+    used_bytes: 0
+  "/sys/fs/cgroup":
+    available: 1.39 GiB
+    available_bytes: 1492918272
+    capacity: 0%
+    device: tmpfs
+    filesystem: tmpfs
+    options:
+    - ro
+    - nosuid
+    - nodev
+    - noexec
+    - mode=755
+    size: 1.39 GiB
+    size_bytes: 1492918272
+    used: 0 bytes
+    used_bytes: 0
+  "/var/lib/docker/overlay":
+    available: 12.65 GiB
+    available_bytes: 13584449536
+    capacity: 31.45%
+    device: "/dev/mapper/centos-root"
+    filesystem: xfs
+    options:
+    - rw
+    - relatime
+    - attr2
+    - inode64
+    - noquota
+    size: 18.46 GiB
+    size_bytes: 19815989248
+    used: 5.80 GiB
+    used_bytes: 6231539712
+mtu_br-2f65f8a083fd: 1500
+mtu_docker0: 1500
+mtu_ens32: 1500
+mtu_ens34: 1500
+mtu_lo: 65536
+netmask: 255.255.255.0
+netmask6: 'ffff:ffff:ffff:ffff::'
+netmask6_ens32: 'ffff:ffff:ffff:ffff::'
+netmask6_ens34: 'ffff:ffff:ffff:ffff::'
+netmask6_lo: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+netmask_br-2f65f8a083fd: 255.255.0.0
+netmask_docker0: 255.255.0.0
+netmask_ens32: 255.255.255.0
+netmask_ens34: 255.255.255.0
+netmask_lo: 255.0.0.0
+network: 192.168.1.0
+network6: '2a00:23c4:f509:5200::'
+network6_ens32: 'fe80::'
+network6_ens34: '2a00:23c4:f509:5200::'
+network6_lo: "::1"
+network_br-2f65f8a083fd: 172.18.0.0
+network_docker0: 172.17.0.0
+network_ens32: 192.168.19.0
+network_ens34: 192.168.1.0
+network_lo: 127.0.0.0
+networking:
+  dhcp: 192.168.1.254
+  domain: puppetlabs.vm
+  fqdn: learning.puppetlabs.vm
+  hostname: learning
+  interfaces:
+    br-2f65f8a083fd:
+      bindings:
+      - address: 172.18.0.1
+        netmask: 255.255.0.0
+        network: 172.18.0.0
+      ip: 172.18.0.1
+      mac: 02:42:6c:4d:35:98
+      mtu: 1500
+      netmask: 255.255.0.0
+      network: 172.18.0.0
+    docker0:
+      bindings:
+      - address: 172.17.0.1
+        netmask: 255.255.0.0
+        network: 172.17.0.0
+      ip: 172.17.0.1
+      mac: 02:42:9d:06:2c:2c
+      mtu: 1500
+      netmask: 255.255.0.0
+      network: 172.17.0.0
+    ens32:
+      bindings:
+      - address: 192.168.19.133
+        netmask: 255.255.255.0
+        network: 192.168.19.0
+      bindings6:
+      - address: fe80::2655:2f2d:8ea0:9b17
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: 'fe80::'
+      dhcp: 192.168.19.254
+      ip: 192.168.19.133
+      ip6: fe80::2655:2f2d:8ea0:9b17
+      mac: 00:0c:29:c6:52:b9
+      mtu: 1500
+      netmask: 255.255.255.0
+      netmask6: 'ffff:ffff:ffff:ffff::'
+      network: 192.168.19.0
+      network6: 'fe80::'
+    ens34:
+      bindings:
+      - address: 192.168.1.171
+        netmask: 255.255.255.0
+        network: 192.168.1.0
+      bindings6:
+      - address: 2a00:23c4:f509:5200:20c:29ff:fec6:52c3
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: '2a00:23c4:f509:5200::'
+      - address: fdaa:bbcc:ddee:0:20c:29ff:fec6:52c3
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: 'fdaa:bbcc:ddee::'
+      - address: fe80::20c:29ff:fec6:52c3
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: 'fe80::'
+      dhcp: 192.168.1.254
+      ip: 192.168.1.171
+      ip6: 2a00:23c4:f509:5200:20c:29ff:fec6:52c3
+      mac: 00:0c:29:c6:52:c3
+      mtu: 1500
+      netmask: 255.255.255.0
+      netmask6: 'ffff:ffff:ffff:ffff::'
+      network: 192.168.1.0
+      network6: '2a00:23c4:f509:5200::'
+    lo:
+      bindings:
+      - address: 127.0.0.1
+        netmask: 255.0.0.0
+        network: 127.0.0.0
+      bindings6:
+      - address: "::1"
+        netmask: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+        network: "::1"
+      ip: 127.0.0.1
+      ip6: "::1"
+      mtu: 65536
+      netmask: 255.0.0.0
+      netmask6: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+      network: 127.0.0.0
+      network6: "::1"
+  ip: 192.168.1.171
+  ip6: 2a00:23c4:f509:5200:20c:29ff:fec6:52c3
+  mac: 00:0c:29:c6:52:c3
+  mtu: 1500
+  netmask: 255.255.255.0
+  netmask6: 'ffff:ffff:ffff:ffff::'
+  network: 192.168.1.0
+  network6: '2a00:23c4:f509:5200::'
+  primary: ens34
+operatingsystem: CentOS
+operatingsystemmajrelease: '7'
+operatingsystemrelease: 7.4.1708
+os:
+  architecture: x86_64
+  distro:
+    codename: Core
+    description: CentOS Linux release 7.4.1708 (Core)
+    id: CentOS
+    release:
+      full: 7.4.1708
+      major: '7'
+      minor: '4'
+    specification: ":core-4.1-amd64:core-4.1-noarch:cxx-4.1-amd64:cxx-4.1-noarch:desktop-4.1-amd64:desktop-4.1-noarch:languages-4.1-amd64:languages-4.1-noarch:printing-4.1-amd64:printing-4.1-noarch"
+  family: RedHat
+  hardware: x86_64
+  name: CentOS
+  release:
+    full: 7.4.1708
+    major: '7'
+    minor: '4'
+  selinux:
+    enabled: false
+osfamily: RedHat
+package_provider: yum
+partitions:
+  "/dev/mapper/centos-root":
+    filesystem: xfs
+    mount: "/"
+    size: 18.46 GiB
+    size_bytes: 19826475008
+    uuid: c5e9538a-9f0f-4666-88e7-28bb52b62e43
+  "/dev/mapper/centos-swap":
+    filesystem: swap
+    size: 1.00 GiB
+    size_bytes: 1073741824
+    uuid: 8e3c7c45-a31b-479f-bd47-25764cf80fab
+  "/dev/sda1":
+    filesystem: xfs
+    mount: "/boot"
+    size: 500.00 MiB
+    size_bytes: 524288000
+    uuid: 5dc0799f-b2a8-465e-8a47-60b677be09b3
+  "/dev/sda2":
+    filesystem: LVM2_member
+    size: 19.51 GiB
+    size_bytes: 20949499904
+    uuid: PpSFVZ-SS3P-n3a6-ctPF-sb9H-6M85-i0TqBv
+path: "/usr/bin:/bin:/usr/sbin:/sbin"
+pe_build: 2017.3.4
+pe_cert_change: learning.puppetlabs.vm
+pe_concat_basedir: "/opt/puppetlabs/puppet/cache/pe_concat"
+pe_postgresql_info:
+  installed_server_version: '9.6'
+  data_partition_size_bytes: 19815989248
+  data_partition_available_bytes: 13585666048
+  versions:
+    '9.6':
+      app_dir: "/opt/puppetlabs/server/apps/postgresql"
+      data_dir: "/opt/puppetlabs/server/data/postgresql/9.6"
+      tablespaces:
+      - "/opt/puppetlabs/server/data/postgresql/activity/PG_9.6_201608131"
+      - "/opt/puppetlabs/server/data/postgresql/classifier/PG_9.6_201608131"
+      - "/opt/puppetlabs/server/data/postgresql/orchestrator/PG_9.6_201608131"
+      - "/opt/puppetlabs/server/data/postgresql/puppetdb/PG_9.6_201608131"
+      - "/opt/puppetlabs/server/data/postgresql/rbac/PG_9.6_201608131"
+      used_bytes: 115662848
+pe_razor_server_version: package pe-razor-server is not installed
+pe_server_version: 2017.3.4
+physicalprocessorcount: 2
+platform_symlink_writable: true
+platform_tag: el-7-x86_64
+processor0: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+processor1: Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+processorcount: 2
+processors:
+  count: 2
+  isa: x86_64
+  models:
+  - Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+  - Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz
+  physicalcount: 2
+productname: VMware Virtual Platform
+puppet_environmentpath: "/etc/puppetlabs/code/environments"
+puppet_files_dir_present: false
+puppet_inventory_metadata:
+  packages:
+    collection_enabled: false
+    last_collection_time: 0.0s
+puppet_server: learning.puppetlabs.vm
+puppet_vardir: "/opt/puppetlabs/puppet/cache"
+puppetversion: 5.3.4
+root_home: "/root"
+ruby:
+  platform: x86_64-linux
+  sitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.4.0"
+  version: 2.4.3
+rubyplatform: x86_64-linux
+rubysitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.4.0"
+rubyversion: 2.4.3
+selinux: false
+serialnumber: VMware-56 4d 52 82 ac 30 8d 2b-12 65 07 7a 9e c6 52 b9
+service_provider: systemd
+ssh:
+  ecdsa:
+    fingerprints:
+      sha1: SSHFP 3 1 4b80cff845085540397b35a95d2b96afdcb16731
+      sha256: SSHFP 3 2 f9bb974b48a084ea13675f181b1acee9f02f7017670173c7b36b527a34988a38
+    key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHwC5YtWj+dmqADHLkZHmYzkCqvTDwc2e1/UzYD3pNjTNEjnXz4NbYX/fi6IzpsoTncIKDz/KIyNyavAZzwB3Iw=
+  ed25519:
+    fingerprints:
+      sha1: SSHFP 4 1 03dc83a5291156202d219701ca246ae52dfcb196
+      sha256: SSHFP 4 2 65401a580116be078bfbdf59d9b720083cd68db7f0dbe22b095aa8d4300ca750
+    key: AAAAC3NzaC1lZDI1NTE5AAAAIHd8LpD7gj/4leXZaK0CuX+A6Eyp9thXdAsgyOTlprau
+  rsa:
+    fingerprints:
+      sha1: SSHFP 1 1 c6583019aa0b3c40f9000b0276043f17173ef2d8
+      sha256: SSHFP 1 2 da7a06517bd53ab42abef342df3b5e776775dcee19049781131c1ad654295a51
+    key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDjp1PuZnOUZOUieQ2qMv0MlTaIjkAnYkpsgKumicsa8wjqGvvLngHB7DuFSJvXKeR5UFOYOGgw6wlKzj7oinNAmFFgkegnUsqlPCXfyVUljZw4/DfmH49KDZJpp8hKN87Ne0Z4tUhaD9ndjm+fWUUKy8Ykn6N5ClOjOiTrI+85YMb4I3/g0NciUdnnJ6ItWlttyUJmeNykYMsQie8OJWqw3bvc7um586lh0/i1DAlhu+DcNbJ9poaUeGLaXJSRGeymlLtAqpUTHl0fAiG7bs/8aRZzzjKlc1QCoHVzBte8meHQ2m9CJDdeTHOX2XBjG28NUErlpFi0vdI3X37xerqf
+sshecdsakey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHwC5YtWj+dmqADHLkZHmYzkCqvTDwc2e1/UzYD3pNjTNEjnXz4NbYX/fi6IzpsoTncIKDz/KIyNyavAZzwB3Iw=
+sshed25519key: AAAAC3NzaC1lZDI1NTE5AAAAIHd8LpD7gj/4leXZaK0CuX+A6Eyp9thXdAsgyOTlprau
+sshfp_ecdsa: |-
+  SSHFP 3 1 4b80cff845085540397b35a95d2b96afdcb16731
+  SSHFP 3 2 f9bb974b48a084ea13675f181b1acee9f02f7017670173c7b36b527a34988a38
+sshfp_ed25519: |-
+  SSHFP 4 1 03dc83a5291156202d219701ca246ae52dfcb196
+  SSHFP 4 2 65401a580116be078bfbdf59d9b720083cd68db7f0dbe22b095aa8d4300ca750
+sshfp_rsa: |-
+  SSHFP 1 1 c6583019aa0b3c40f9000b0276043f17173ef2d8
+  SSHFP 1 2 da7a06517bd53ab42abef342df3b5e776775dcee19049781131c1ad654295a51
+sshrsakey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDjp1PuZnOUZOUieQ2qMv0MlTaIjkAnYkpsgKumicsa8wjqGvvLngHB7DuFSJvXKeR5UFOYOGgw6wlKzj7oinNAmFFgkegnUsqlPCXfyVUljZw4/DfmH49KDZJpp8hKN87Ne0Z4tUhaD9ndjm+fWUUKy8Ykn6N5ClOjOiTrI+85YMb4I3/g0NciUdnnJ6ItWlttyUJmeNykYMsQie8OJWqw3bvc7um586lh0/i1DAlhu+DcNbJ9poaUeGLaXJSRGeymlLtAqpUTHl0fAiG7bs/8aRZzzjKlc1QCoHVzBte8meHQ2m9CJDdeTHOX2XBjG28NUErlpFi0vdI3X37xerqf
+staging_http_get: curl
+swapfree: 890.04 MiB
+swapfree_mb: 890.03515625
+swapsize: 1.00 GiB
+swapsize_mb: 1023.99609375
+system_uptime:
+  days: 0
+  hours: 0
+  seconds: 512
+  uptime: 0:08 hours
+timezone: PDT
+uptime: 0:08 hours
+uptime_days: 0
+uptime_hours: 0
+uptime_seconds: 512
+uuid: 564D5282-AC30-8D2B-1265-077A9EC652B9
+virtual: vmware
+clientcert: learning.puppetlabs.vm
+clientversion: 5.3.4
+clientnoop: false

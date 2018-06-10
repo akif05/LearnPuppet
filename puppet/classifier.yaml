@@ -1,0 +1,3 @@
+- server: learning.puppetlabs.vm
+  port: 4433
+  prefix: /classifier-api
